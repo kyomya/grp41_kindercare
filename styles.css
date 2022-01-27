@@ -1,0 +1,57 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: lightgrey;
+    font-size: 15px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+#body {
+    background-color: white;
+    padding: 50px;
+    border-radius: 2.5%;
+    width: auto;
+    margin-top: 10%;
+}
+
+input {
+    width: 50%;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+#login {
+    border-radius: 50px;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+#login:hover {
+    opacity: 75%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
