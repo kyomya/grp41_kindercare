@@ -1,0 +1,467 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: serif,sans-serif;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	font-size: inherit;
+	color: inherit;
+}
+/*...........index mainpage css styling.........*/
+.index_nav{
+    
+    position:fixed;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    top:0;
+    left: 0;
+    z-index: 9999;
+    
+    background-color:seagreen;
+}
+.index_nav h1{
+    color: white;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: overline;
+    text-decoration-color: bisque;
+    border: 3px solid seagreen;
+    text-shadow:0 0 4px #00FFFF;
+}
+.index_nav img{
+    float: left;
+    width: 6%;
+    margin-left: 30px;
+}
+.index_nav ul{
+    float: right;
+    display:flex;
+    flex-direction: row;
+}
+.index_nav ul li{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.index_nav ul li a{
+    color: white;
+}
+.index_nav ul li a:hover{
+    font-weight: bold;
+}
+.header{
+    background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(images/index_back.jpeg);
+    background-position:center;
+    position:relative;
+    background-size:cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+}
+.header h1{
+    padding-top: 100px;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 36px;
+}
+.header p{
+    color: azure;
+    font-size: 22px;
+    font-style: italic;
+    font-stretch: semi-expanded;
+}
+.header button{
+    width: 20%;
+    height: 40px;
+    color: white;
+    background: seagreen;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: 1s;
+}
+.header button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+/*.............admin login page css styling..........*/
+.admin_login{
+    width: 100%;
+    margin: auto;
+    background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(images/adminlogin.webp);
+    background-position:center;
+    position:relative;
+    background-size:cover;
+    margin-top: 70px;
+    height: 90vh;
+}
+.admin_login p{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    padding-top: 30px;
+}
+.admin-header{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: seagreen;
+}
+.admin-header p{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.form{
+    width: 40%;
+    margin: auto;
+    background-color: darkgray;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.form input{
+    width: 95%;
+    margin: auto;
+    height: 45px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.form label{
+    margin-left: 10px;
+}
+.form #loginbtn{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    height: 40px;
+    background-color: seagreen;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+.form #loginbtn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+/*................admin login page css ends here.............*/
+
+
+/*.............the teacher register page css starts here..............*/
+.create-container{
+    background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(images/registerteacher.jpeg);
+    background-position:center;
+    position:relative;
+    background-size:cover;
+    height: 120vh;
+    margin-top: 70px;
+    width: 100%;
+}
+.create-container p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+.register_header{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: seagreen;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.register_header p{
+    text-transform: uppercase;
+}
+.teacher_register_form{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+.teacher_register_form input{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-color: white;
+}
+.teacher_register_form label{
+    margin-left: 15px;
+}
+.teacher_register_form button{
+    width: 40%;
+    margin: auto;
+    background-color: seagreen;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    height: 40px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.teacher_register_form button:hover{
+    cursor: pointer;
+    background-color: green;
+}/*..................the teacher register css section ends here..........*/
+
+
+/*....................the dashboard css section starts here...............*/
+.teacher-roles{
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+.dashboard{
+    background-color: aliceblue;
+    width: 20%;
+    text-align: center;
+}
+.dashboard h6{
+    font-size: 40px;
+    color: brown;
+    text-shadow: 0 0 4px green;
+}
+.dashboard .activities{
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.dashboard .activities h4{
+    margin-top: 30px;
+}
+.dashboard .activities h4 a{
+    color: blue;
+    font-size: 18px;
+}
+.teacher-roles .introduction{
+    width: 80%;
+    background-color: ghostwhite;
+    text-align: center;
+}
+.teacher-roles .introduction h6{
+    margin-top: 150px;
+    color: seagreen;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.teacher-roles .introduction p{
+    margin-top: 30px;
+}
+.teacher-roles .introduction img{
+    width: 10%;
+    margin-top: 30px;
+}/*...................the dashboard page css section ends here............*/
+
+
+/*................pupil register page css.................*/
+.p_register{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/registerspupil.jpeg);
+    background-position:center;
+    position:relative;
+    height: 100vh;
+    background-size:cover;
+    margin: auto;
+    margin-top: 70px;
+}
+.p_register p{
+    color: white;
+    font-weight:200;
+    font-size: 22px;
+    padding-top: 30px;
+    text-align: center;
+}
+.register_pupil{
+    width: 50%;
+    margin: auto;
+    background-color: seagreen;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.register_pupil p{
+    text-transform: uppercase;
+}
+.pregister_form{
+    width: 50%;
+    margin: auto;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.pregister_form input{
+    width: 95%;
+    margin: auto;
+    height: 40px;
+    border-color: white;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.pregister_form label{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.pregister_form #pregbtn{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 30px;
+    background-color: seagreen;
+    text-transform: uppercase;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    transition: 1s;
+}
+.pregister_form #pregbtn:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+/*..............ASSIGNMENT PAGE CSS starts here.........................*/
+.assignment_overlayer{
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/assignmentback.jpg);
+    background-position:center;
+    position:relative;
+    background-size:cover;
+    text-align: center;
+    margin-top: 70px;
+}
+.add-characters p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.assignment-upload{
+	width: 80%;
+	margin: auto;
+	background-color: ghostwhite;
+    text-align: center
+}
+.assignment-upload textarea{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.assignment-upload .character-checkbox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.assignment-upload .character-checkbox fieldset{
+    width:5%;
+    margin: auto;
+}
+.assignment-upload .character-checkbox fieldset:not(:last-child){
+    margin-bottom: 15px;
+}
+ #starttime,#endtime{
+ 	width: 30%;
+ 	height: 40px;
+ 	border-radius: 5px;
+ 	cursor: zoom-in;
+     margin-top: 30px;
+ }
+#starttime,#endtime:not(:last-child){
+    margin-right: 40px;
+}
+#upload{
+	width: 35%;
+	text-transform: uppercase;
+	margin: auto;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	background-color:seagreen;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	transition: 1s;
+
+}
+#upload:hover{
+	background-color:green;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+/*--------------------footer css-------------------------------------*/
+
+.footer_section{
+    width: 100%;
+    margin: auto;
+    background-color:green;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer_section h4{
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.footer_section h3{
+    padding-top: 40px;
+}
+.footer_container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.item_cont{
+    width: 20%;
+    display: block;;
+    background-color:seagreen;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.item_cont:not(:last-child){
+    margin-right: 30px;
+}
+.item_cont img{
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
